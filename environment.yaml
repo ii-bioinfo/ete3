@@ -1,0 +1,9 @@
+name: ete3
+channels:
+  - etetoolkit
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - xvfbwrapper=0.2.9
+  - etetoolkit::ete3=3.1.1
